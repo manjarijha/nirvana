@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9221aff666.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--<i class="fas fa-music"></i>-->
+<div class="container">
+  <img src="img1.jpeg" class="image">
+ <!--song name --> <h2> Levittating</h2>
+ <!-- singer name--><h3>Dua Lipa</h3>
+ <div class="card__controllers">
+  <label ><input type="range" value="100" id="tracker" /> </label> 
+  <span class="card_time" id="current-time">00:00</span>
+  <span class="card_time" id="info-time"></span>
+</div>
+
+ <div class="controls">
+  <button id="previous">  <i class="fas fa-step-backward" title="previous"></i> </button>
+  <button id="play">     <img src="play.png" id="change" >      </button>
+  <button id="next">   <i class="fas fa-step-forward" title="next"></i>   </button>
+</div>
+  
+</div>
+
+ <audio src="song1.mpeg" class="song" id="song"> </audio>
+ <audio src="song2.mpeg" class="song2" id="song2"> </audio>
+ <audio src="song3.mpeg" class="song3" id="song3"> </audio>
+
+</body>
+<script src="script.js"></script>
+</html>
